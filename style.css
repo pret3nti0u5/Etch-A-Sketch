@@ -1,0 +1,84 @@
+body{
+    padding: 0%;
+    margin: 0px;
+}
+
+html, body, #container{
+    height: 100%;
+}
+
+#container{
+    background: #8bbee8ff;
+}
+
+#titleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d7a9e3ff;
+    font-size: xx-large;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#etchContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border: #000000;
+    margin-top: 56px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 8px;
+    width: 400px;
+    height: 400px;
+}
+
+#etchMaster{
+    display: flex;
+    justify-content: center;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+}
+
+a.button{
+    display :inline-block;
+    padding :0.3em 1.2em;
+    margin:0 1.2em 1.2em 0;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    font-size: medium;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:bolder;
+    color:#FFFFFF;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+}
+
+    a.button:hover{
+    border-color: rgba(255,255,255,1);
+    }
+    @media all and (max-width:30em){
+     a.button{
+    display:block;
+    margin:0.2em auto;
+    }
+} 
+
