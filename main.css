@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "zukaDoodle";
+    src: url(ZukaDoodle.ttf);
+}
+
 body{
     padding: 0%;
     margin: 0px;
@@ -18,8 +23,9 @@ html, body, #container{
     justify-content: center;
     background: #d7a9e3ff;
     font-size: xx-large;
-    font-family: 'Lato', sans-serif;
+    font-family: "zukaDoodle";
 }
+
 h1{
     margin-top: 16px;
     margin-bottom: 0px;
