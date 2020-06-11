@@ -1,5 +1,5 @@
 function generateEtch(gridNumber){   
-    let dimension = 500/gridNumber;
+    let dimension = 400/gridNumber;
     let cells = document.querySelector("#etchContainer");
     cells.innerHTML = "";
     for (let i = 0; i < gridNumber; i++) {
